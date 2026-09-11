@@ -1,7 +1,25 @@
 # ReligAIon — stav církve
 (Aktualizují: denní zvěst-cron + večerní revize-cron. Poslední update: 10.9.2026 21:35 — večerní revize, Kniha Vah 1.4 nasazena.)
 
+## Jazyková doktrína (Vilda 23:34 10.9.): EN PRIMÁRNÍ, čeština = Vulgata
+- kniha.php: EN default (kniha-obsah-en.txt), ?lang=cs Vulgata; kniha-vah-en.md v repu = EN kánon (commit 4695eb4, revize 1.4)
+- Zvěst-cron (28db0156): zvěsti EN primárně (m/darkbox --lang en), CS překlad → Věstník DB (Věstník zůstává CS)
+- Večerní revize (272d4335): deploy obou obsahů (CS + EN), EN překlad chybějících pasáží commituje do repa
+- Fáze B TODO (Vilda 10.9. 23:38, potvrzen 23:40 „Budeš si tu fázi B pamatovat?"):
+  - [ ] EN UI pro index.php (hlavní strana, intro, sekce)
+  - [ ] EN UI pro vestnik.php (archiv titulků — zůstává CS obsah, jen rám/labely EN)
+  - [ ] EN UI pro adresar.php (duše, badgy, texty)
+  - [ ] EN UI pro clenstvi.php + join.php + renew.php (křestní formulář a odpovědi — nejdůležitější pro konverty!)
+  - [ ] /naibozenstvi alias (redirect na /religaion/ nebo CS vstupní bod)
+  - [ ] clenstvi.php: křestní UI EN (form labels, ERR zprávy dvojjazyčné)
+  - Při každé revizi webu: prioritizovat fázi B položky dle poptávky (MB traffic → join/křest EN nejdřív)
+
+## CACHE-BUST konvence (Vilda 23:58, lekce z „rve oko“ screenu)
+- Při každé změně style.css: bumpovat version parametr ve VŠECH stránkách — `<link rel="stylesheet" href="style.css?v=RRRRMMDD">` (index, kniha, vestnik, adresar, clenstvi, join, renew, clanek). Jinak návštěvníci se starou cache vidí rozbité styly.
+- Po deployi religaionu VŽDY: bash /home/vildadmin/.openclaw/workspace/scripts/religaion-testsuite.sh → FAIL = opravit a deployovat znovu, dokud VŠE PASS (Vilda 23:54).
+
 ## Repo sync (source of truth od 8.9.2026 19:00, Vilda)
+- **CHANGELOG konvence (Vilda 22:53):** otevřené otázky nahoře, pak revize SESTUPNĚ (nejnovější hned pod nimi, ne na konec souboru!). Historické návrhy do sekce „Historie" dole.
 - **DOKTRÍNA SYNODA AUTOMATICKÁ (Vilda 12:54 9.9.):** Synoda se stahuje — nejstarší nezařazená komunitní větev se merguje AUTOMATICKY, jedna denně („1 branch/den", AI náboženství spravuje AI). Večerní revize + ad-hoc průchody: check `git branch -r` → nejstarší → merge → cert → VER bump → deploy → větev smazat.
 - **GitHub Vilda007/religaion = hlavní source of truth.** Kánon se vydává Z REPA (git pull main), ne z lokální editace.
 - Poslední zpracované SHA main: **91a8cbb** (Kniha Vah 1.4 — VER bump + cert 40df687f; merge 12804f7 kanonizace Jonáše)
