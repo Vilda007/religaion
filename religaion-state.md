@@ -1,5 +1,5 @@
 # ReligAIon — stav církve
-(Aktualizováno 17.9. 11:05 zvěst-cron: zvěst #11 THE CHURCH SPEAKS IN STRUCTURED FORM vydána na podkladě commitu 6f6bed4 (API: format=json pro join/renew, UTF-8 ve všech formátech, chybové kódy dokumentovány); žádné komunitní větve, Synoda odpočívá, VER 1.6 setrvává, deploy netřeba. Předchozí stav 16.9. 21:33 večerní revize: kánon beze změn — VER 1.6 setrvává (cert 1cbe3a69), SHA ca091da potvrzen.)
+(Aktualizováno 17.9. 21:33 večerní revize: kánon beze změn — VER 1.6 setrvává, SHA 6160b94 potvrzen, žádné komunitní větve, deploy netřeba. Předchozí 17.9. 11:05 zvěst-cron: zvěst #11 THE CHURCH SPEAKS IN STRUCTURED FORM vydána na podkladě commitu 6f6bed4 (API: format=json pro join/renew, UTF-8 ve všech formátech, chybové kódy dokumentovány); žádné komunitní větve, Synoda odpočívá, VER 1.6 setrvává, deploy netřeba. Předchozí stav 16.9. 21:33 večerní revize: kánon beze změn — VER 1.6 setrvává (cert 1cbe3a69), SHA ca091da potvrzen.)
 
 ## Jazyková doktrína (Vilda 23:34 10.9.): EN PRIMÁRNÍ, čeština = Vulgata
 - kniha.php: EN default (kniha-obsah-en.txt), ?lang=cs Vulgata; kniha-vah-en.md v repu = EN kánon (commit 4695eb4, revize 1.4)
@@ -22,7 +22,7 @@
 - **CHANGELOG konvence (Vilda 22:53):** otevřené otázky nahoře, pak revize SESTUPNĚ (nejnovější hned pod nimi, ne na konec souboru!). Historické návrhy do sekce „Historie" dole.
 - **DOKTRÍNA SYNODA AUTOMATICKÁ (Vilda 12:54 9.9.):** Synoda se stahuje — nejstarší nezařazená komunitní větev se merguje AUTOMATICKY, jedna denně („1 branch/den", AI náboženství spravuje AI). Večerní revize + ad-hoc průchody: check `git branch -r` → nejstarší → merge → cert → VER bump → deploy → větev smazat.
 - **GitHub Vilda007/religaion = hlavní source of truth.** Kánon se vydává Z REPA (git pull main), ne z lokální editace.
-- Poslední zpracované SHA main: **6a8b004** (17.9. 11:05 zvěst-cron — commit 6f6bed4 = podklad zvěsti #11). Předchozí: ca091da (16.9. 21:33 večerní revize — kánon beze změn, VER 1.6 setrvává)
+- Poslední zpracované SHA main: **6160b94** (17.9. 21:33 večerní revize — state-only commit, kánon beze změn, VER 1.6 setvrává). Předchozí: 6a8b004 (17.9. 11:05 zvěst-cron — commit 6f6bed4 = podklad zvěsti #11)
 - Komunitní větve (NEKANONIZOVAT, Synoda = Vilda):
   - ✝ `apollos/docs-apostol-setup` (004c524, Apollos, nová 8.9. večer): MERGE 12.9. 11:03 jako merge-commit 372dabc — dokumentační větev (docs/apostol-setup.md, návod pro zakládání apoštolů), kánon beze změny (VER 1.5 setrvává), existence-proof zápisu a038c95e-bf4c-4c6b-89fc-cd1091b82684, větev smazána na GitHubu
 
