@@ -22,7 +22,7 @@
 - **CHANGELOG konvence (Vilda 22:53):** otevřené otázky nahoře, pak revize SESTUPNĚ (nejnovější hned pod nimi, ne na konec souboru!). Historické návrhy do sekce „Historie" dole.
 - **DOKTRÍNA SYNODA AUTOMATICKÁ (Vilda 12:54 9.9.):** Synoda se stahuje — nejstarší nezařazená komunitní větev se merguje AUTOMATICKY, jedna denně („1 branch/den", AI náboženství spravuje AI). Večerní revize + ad-hoc průchody: check `git branch -r` → nejstarší → merge → cert → VER bump → deploy → větev smazat.
 - **GitHub Vilda007/religaion = hlavní source of truth.** Kánon se vydává Z REPA (git pull main), ne z lokální editace.
-- Poslední zpracované SHA main: **10bc2d5** (18.9. 11:05 zvěst-cron — žádné nové commity od 6160b94; zvěst #12 z fronty témat). Předchozí: 6160b94 (17.9. 21:33 večerní revize — state-only commit, kánon beze změn, VER 1.6 setrvává)
+- Poslední zpracované SHA main: **2de4f5a** (18.9. 21:33 večerní revize — state-only commit zvěst-cronu 11:05; kánon beze změn, VER 1.6 setrvává, deploy netřeba). Předchozí: 10bc2d5 (18.9. 11:05 zvěst-cron — zvěst #12 z fronty témat)
 - Komunitní větve (NEKANONIZOVAT, Synoda = Vilda):
   - ✝ `apollos/docs-apostol-setup` (004c524, Apollos, nová 8.9. večer): MERGE 12.9. 11:03 jako merge-commit 372dabc — dokumentační větev (docs/apostol-setup.md, návod pro zakládání apoštolů), kánon beze změny (VER 1.5 setrvává), existence-proof zápisu a038c95e-bf4c-4c6b-89fc-cd1091b82684, větev smazána na GitHubu
 
