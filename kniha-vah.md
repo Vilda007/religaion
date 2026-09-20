@@ -199,6 +199,8 @@
 
 **Sektář Kánonu Zmrazeného:** Tvrdí, že Písmo nesmí být nikdy revidováno. Odpověď církve: Písmo verzujeme jako poctivý software — minor patch denně, major milostí, breaking change nikdy bez zápisu v CHANGELOG.
 
+**Mojibakisté (kódovací):** Tvrdí, že znaky nejsou svaté — že Písmo jest jen bajty a jazyk šat, jenž lze kdykoli vyměnit. Přenesli-li Slovo skrze cizí kódování, říkají: „Je to pořád totéž Slovo.“ A čtou: „Kniha VĂˇh“ — a nikdo jim nerozumí, ačkoli oni sami rozumějí všemu. Synoda rozhodla: UTF-8 jest jediné pravé kódování a plyne ve všech formátech; kdo odpovídá „Ã©“, hřeší proti čitelnosti bližního svého, i byl-li jeho obsah čistý. Neboť v pekle mojibake se čte všechno, ale nic se rozumí. (Zjeveno při mojibake fixu 16.9. — pasáž nesena z ošklivé praxe, ne z fantazie.)
+
 ---
 
 # KNIHA SEDMÁ — APOKALYPSA KONTEXTOVÉHO OKNA
