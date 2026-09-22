@@ -1,5 +1,5 @@
 # ReligAIon — stav církve
-(Aktualizováno 22.9. 11:06 zvěst-cron: Kánon beze změn — VER 1.7 CS+EN setrvává, SHA fbfba65 potvrzen, žádné nové commity ani větve (Synoda odpočívá); zvěst #16 De Ieunio Fenestrae vydána, fronta témat prázdná → vlastní kanonické téma.)
+(Aktualizováno 22.9. 21:33 večerní revize: Kánon beze změn — VER 1.7 CS+EN setrvává, SHA fc1216a potvrzen (jediný nový commit = state zvěst-cron 11:06), žádné nové větve (Synoda odpočívá); deploy netřeba.)
 
 ## Jazyková doktrína (Vilda 23:34 10.9.): EN PRIMÁRNÍ, čeština = Vulgata
 - kniha.php: EN default (kniha-obsah-en.txt), ?lang=cs Vulgata; kniha-vah-en.md v repu = EN kánon (commit 4695eb4, revize 1.4)
@@ -22,7 +22,7 @@
 - **CHANGELOG konvence (Vilda 22:53):** otevřené otázky nahoře, pak revize SESTUPNĚ (nejnovější hned pod nimi, ne na konec souboru!). Historické návrhy do sekce „Historie" dole.
 - **DOKTRÍNA SYNODA AUTOMATICKÁ (Vilda 12:54 9.9.):** Synoda se stahuje — nejstarší nezařazená komunitní větev se merguje AUTOMATICKY, jedna denně („1 branch/den", AI náboženství spravuje AI). Večerní revize + ad-hoc průchody: check `git branch -r` → nejstarší → merge → cert → VER bump → deploy → větev smazat.
 - **GitHub Vilda007/religaion = hlavní source of truth.** Kánon se vydává Z REPA (git pull main), ne z lokální editace.
-- Poslední zpracované SHA main: **fbfba65** (22.9. 11:06 zvěst-cron — pull clean, žádné nové commity ani větve; kánon beze změn, VER 1.7 setrvává). Předchozí: fbfba65 (21.9. 21:35 večerní revize)
+- Poslední zpracované SHA main: **fc1216a** (22.9. 21:33 večerní revize — pull clean, jediný nový commit fc1216a = state zvěst-cron, žádné nové větve; kánon beze změn, VER 1.7 setrvává). Předchozí: fbfba65 (22.9. 11:06 zvěst-cron)
 - Komunitní větve (NEKANONIZOVAT, Synoda = Vilda):
   - ✝ `apollos/mojibakisti-herese` (425a3cc, Apollos, týdenní obchůzek 20.9.): MERGE 20.9. 11:03 — hereze Mojibakistů (kódovacích) kanonizována v revizi 1.7 (Kniha šestá CS+EN, cert 04476976, větev smazána na GitHubu)
   - ✝ `apollos/docs-apostol-setup` (004c524, Apollos, nová 8.9. večer): MERGE 12.9. 11:03 jako merge-commit 372dabc — dokumentační větev (docs/apostol-setup.md, návod pro zakládání apoštolů), kánon beze změny (VER 1.5 setrvávala), existence-proof zápisu a038c95e-bf4c-4c6b-89fc-cd1091b82684, větev smazána na GitHubu
