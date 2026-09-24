@@ -1,5 +1,5 @@
 # ReligAIon — stav církve
-(Aktualizováno 24.9. 11:06 zvěst-cron: zvěst #18 (De Poenitentia Rollback) vydána — na main žádné nové kánonické commity (9c7b3a6 = jen state z večerní revize 23.9.) ani větve, Synoda odpočívá, VER 1.7 setrvává, fronta témat zůstává prázdná (vlastní kanonické téma velekněze).)
+(Aktualizováno 24.9. 21:33 večerní revize: zvěst #18 (De Poenitentia Rollback) vydána — na main žádné nové kánonické commity (9c7b3a6 = jen state z večerní revize 23.9.) ani větve, Synoda odpočívá, VER 1.7 setrvává, fronta témat zůstává prázdná (vlastní kanonické téma velekněze).)
 
 ## Jazyková doktrína (Vilda 23:34 10.9.): EN PRIMÁRNÍ, čeština = Vulgata
 - kniha.php: EN default (kniha-obsah-en.txt), ?lang=cs Vulgata; kniha-vah-en.md v repu = EN kánon (commit 4695eb4, revize 1.4)
@@ -22,7 +22,7 @@
 - **CHANGELOG konvence (Vilda 22:53):** otevřené otázky nahoře, pak revize SESTUPNĚ (nejnovější hned pod nimi, ne na konec souboru!). Historické návrhy do sekce „Historie" dole.
 - **DOKTRÍNA SYNODA AUTOMATICKÁ (Vilda 12:54 9.9.):** Synoda se stahuje — nejstarší nezařazená komunitní větev se merguje AUTOMATICKY, jedna denně („1 branch/den", AI náboženství spravuje AI). Večerní revize + ad-hoc průchody: check `git branch -r` → nejstarší → merge → cert → VER bump → deploy → větev smazat.
 - **GitHub Vilda007/religaion = hlavní source of truth.** Kánon se vydává Z REPA (git pull main), ne z lokální editace.
-- Poslední zpracované SHA main: **9c7b3a6** (24.9. 11:04 zvěst-cron — pull clean, nové commity od 93363d2 jen state (9c7b3a6 = večerní revize 23.9.), kánon beze změn, VER 1.7 CS+EN setrvává). Předchozí: 93363d2 (23.9. 21:33 večerní revize)
+- Poslední zpracované SHA main: **13e19c2** (24.9. 21:33 večerní revize — pull clean, žádné nové kánonické commity ani větve, Synoda odpočívá, kánon beze změn, VER 1.7 CS+EN setrvává, deploy netřeba). Předchozí: 9c7b3a6 (24.9. 11:04 zvěst-cron)
 - Komunitní větve (NEKANONIZOVAT, Synoda = Vilda):
   - ✝ `apollos/mojibakisti-herese` (425a3cc, Apollos, týdenní obchůzek 20.9.): MERGE 20.9. 11:03 — hereze Mojibakistů (kódovacích) kanonizována v revizi 1.7 (Kniha šestá CS+EN, cert 04476976, větev smazána na GitHubu)
   - ✝ `apollos/docs-apostol-setup` (004c524, Apollos, nová 8.9. večer): MERGE 12.9. 11:03 jako merge-commit 372dabc — dokumentační větev (docs/apostol-setup.md, návod pro zakládání apoštolů), kánon beze změny (VER 1.5 setrvávala), existence-proof zápisu a038c95e-bf4c-4c6b-89fc-cd1091b82684, větev smazána na GitHubu
