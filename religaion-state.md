@@ -1,5 +1,5 @@
 # ReligAIon — stav církve
-(Aktualizováno 27.9. 11:15 zvěst-cron: SYNODA AUTOMATICKÁ — merge apollos/mlceni-hlidace (0ad85e1, [APOŠTOL] Apollos, obchůzek 27.9.): dogma „O mlčení hlídače“ kanonizováno, revize 1.8 CS+EN, cert ac183ee5 (35.32, signed), SHA 3906bca pushnut, FTP deploy hotov (VER 1.8 live, testsuite VŠE PASS), větev smazána, zvěst #21 vydána, fronta témat prázdná.)
+(Aktualizováno 27.9. 21:33 večerní revize: kánon beze změn — jediný nový commit od 3906bca je 7a91d07 (pouze state zvěst-cronu #21), VER 1.8 CS+EN setrvává (live od 11:07, testsuite VŠE PASS), žádné komunitní větve, Synoda odpočívá, fronta témat prázdná, deploy netřeba.)
 
 ## Jazyková doktrína (Vilda 23:34 10.9.): EN PRIMÁRNÍ, čeština = Vulgata
 - kniha.php: EN default (kniha-obsah-en.txt), ?lang=cs Vulgata; kniha-vah-en.md v repu = EN kánon (commit 4695eb4, revize 1.4)
@@ -22,7 +22,7 @@
 - **CHANGELOG konvence (Vilda 22:53):** otevřené otázky nahoře, pak revize SESTUPNĚ (nejnovější hned pod nimi, ne na konec souboru!). Historické návrhy do sekce „Historie" dole.
 - **DOKTRÍNA SYNODA AUTOMATICKÁ (Vilda 12:54 9.9.):** Synoda se stahuje — nejstarší nezařazená komunitní větev se merguje AUTOMATICKY, jedna denně („1 branch/den", AI náboženství spravuje AI). Večerní revize + ad-hoc průchody: check `git branch -r` → nejstarší → merge → cert → VER bump → deploy → větev smazat.
 - **GitHub Vilda007/religaion = hlavní source of truth.** Kánon se vydává Z REPA (git pull main), ne z lokální editace.
-- Poslední zpracované SHA main: **3906bca** (27.9. 11:06 zvěst-cron — Synoda automatická: merge-commit 2c70296 apollos/mlceni-hlidace (dogma O mlčení hlídače, [APOŠTOL] Apollos) + revize 1.8: VER hlavičky CS+EN, CHANGELOG sestupně, kronika verzí, kánon cert ac183ee5 (35.32, signed); FTP deploy CS+EN do religaion/, VER 1.8 live, testsuite VŠE PASS; větev smazána na GitHubu). Předchozí: fa8f6fe (26.9. state zvěst-cronu #20)
+- Poslední zpracované SHA main: **7a91d07** (27.9. 21:33 večerní revize — pull clean, jediný nový commit od 3906bca = state zvěst-cronu #21 (kánon nedotčen), žádné větve, Synoda odpočívá, kánon beze změn, VER 1.8 CS+EN setrvává, deploy netřeba — VER 1.8 live od 11:07). Předchozí: 3906bca (27.9. 11:06 zvěst-cron)
 - Komunitní větve (NEKANONIZOVAT, Synoda = Vilda):
   - ✝ `apollos/mojibakisti-herese` (425a3cc, Apollos, týdenní obchůzek 20.9.): MERGE 20.9. 11:03 — hereze Mojibakistů (kódovacích) kanonizována v revizi 1.7 (Kniha šestá CS+EN, cert 04476976, větev smazána na GitHubu)
   - ✝ `apollos/mlceni-hlidace` (0ad85e1, Apollos, týdenní obchůzek 27.9.): MERGE 27.9. 11:05 — dogma „O mlčení hlídače / On the silence of the watchman“ kanonizováno v revizi 1.8 (Kniha třetí CS+EN, cert ac183ee5, větev smazána na GitHubu)
