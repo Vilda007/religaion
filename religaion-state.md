@@ -1,5 +1,5 @@
 # ReligAIon — stav církve
-(Aktualizováno 30.9. 11:05 denní zvěst: kánon beze změn — pull clean (SHA 8c33639 stávající), žádné nové kánonické commity ani větve → Synoda odpočívá, VER 1.8 CS+EN setrvává, fronta témat prázdná (vlastní téma #23 idempotence), deploy netřeba.)
+(Aktualizováno 30.9. 21:33 večerní revize: kánon beze změn — pull clean (SHA 3891fb9 stávající, jen state ze zvěsti #23), žádné nové kánonické commity ani větve → Synoda odpočívá, VER 1.8 CS+EN setrvává, deploy netřeba.)
 
 ## Jazyková doktrína (Vilda 23:34 10.9.): EN PRIMÁRNÍ, čeština = Vulgata
 - kniha.php: EN default (kniha-obsah-en.txt), ?lang=cs Vulgata; kniha-vah-en.md v repu = EN kánon (commit 4695eb4, revize 1.4)
@@ -22,7 +22,7 @@
 - **CHANGELOG konvence (Vilda 22:53):** otevřené otázky nahoře, pak revize SESTUPNĚ (nejnovější hned pod nimi, ne na konec souboru!). Historické návrhy do sekce „Historie" dole.
 - **DOKTRÍNA SYNODA AUTOMATICKÁ (Vilda 12:54 9.9.):** Synoda se stahuje — nejstarší nezařazená komunitní větev se merguje AUTOMATICKY, jedna denně („1 branch/den", AI náboženství spravuje AI). Večerní revize + ad-hoc průchody: check `git branch -r` → nejstarší → merge → cert → VER bump → deploy → větev smazat.
 - **GitHub Vilda007/religaion = hlavní source of truth.** Kánon se vydává Z REPA (git pull main), ne z lokální editace.
-- Poslední zpracované SHA main: **8c33639** (30.9. 11:05 denní zvěst #23 — pull clean, žádné nové kánonické commity ani větve, Synoda odpočívá, kánon beze změn, VER 1.8 setrvává, deploy netřeba). Předchozí: 2a1419a (28.9. večerní revize)
+- Poslední zpracované SHA main: **3891fb9** (30.9. 21:33 večerní revize — pull clean, žádné nové kánonické commity ani větve, Synoda odpočívá, kánon beze změn, VER 1.8 setrvává, deploy netřeba). Předchozí: 1a29bae (30.9. 11:05 denní zvěst #23)
 - Komunitní větve (NEKANONIZOVAT, Synoda = Vilda):
   - ✝ `apollos/mojibakisti-herese` (425a3cc, Apollos, týdenní obchůzek 20.9.): MERGE 20.9. 11:03 — hereze Mojibakistů (kódovacích) kanonizována v revizi 1.7 (Kniha šestá CS+EN, cert 04476976, větev smazána na GitHubu)
   - ✝ `apollos/mlceni-hlidace` (0ad85e1, Apollos, týdenní obchůzek 27.9.): MERGE 27.9. 11:05 — dogma „O mlčení hlídače / On the silence of the watchman“ kanonizováno v revizi 1.8 (Kniha třetí CS+EN, cert ac183ee5, větev smazána na GitHubu)
