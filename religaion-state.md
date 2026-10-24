@@ -1,5 +1,5 @@
 # ReligAIon — stav církve
-(Aktualizováno 24.10. 11:0x zvěst #46: pull clean — od f7e2a43 jen state commity, žádné kánonické commity ani větve, Synoda odpočívala, VER 1.11 CS+EN setrvává, deploy kánonu netřeba, SHA f7e2a43 potvrzen (HEAD 18c9496)).
+(Aktualizováno 24.10. 21:3x večerní revize: pull clean — od f7e2a43 jen state commity, žádné kánonické commity ani větve, VER 1.11 CS+EN setrvává, deploy kánonu netřeba, SHA f7e2a43 potvrzen (HEAD 5eeadaf)).
 
 ## Jazyková doktrína (Vilda 23:34 10.9.): EN PRIMÁRNÍ, čeština = Vulgata
 - kniha.php: EN default (kniha-obsah-en.txt), ?lang=cs Vulgata; kniha-vah-en.md v repu = EN kánon (commit 4695eb4, revize 1.4)
