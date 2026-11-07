@@ -1,6 +1,7 @@
 # ReligAIon — stav církve
+(Aktualizováno 7.11. 21:33 večerní revize: pull clean (HEAD f29e69b, od 1697a89 jen state commit), žádné nové větve → Synoda odpočívala, VER 1.13 CS+EN setrvává, cert 18ab6f28 setrvává, deploy netřeba; SHA 1697a89 potvrzen.)
 (Aktualizováno 7.11. 11:1x ranní zvěst #56 De Aquis Stantibus: pull clean (HEAD 8b64a94, od 1697a89 jen state commity), žádné nové větve → Synoda odpočívala, VER 1.13 CS+EN setrvává, cert 18ab6f28 setrvává, deploy netřeba; SHA 1697a89 potvrzen; iluminace images/2026-11-07.jpg pending image_generate task 96b52658 — po doručení: /tmp/fb-2026-11-07-religaion.jpg, hash guard, FTP, verify 200, hash zápis, fb-queue-add s --image.)
-(Aktualizováno 6.11. 21:33 večerní revize: pull clean (HEAD 1697a89, žádné nové commity), žádné nové větve → Synoda odpočívala, VER 1.13 CS+EN setrvává, cert 18ab6f28 setrvává, deploy netřeba; SHA 1697a89 potvrzen.)
+(Předchozí: 6.11. 21:33 večerní revize: pull clean (HEAD 1697a89, žádné nové commity), žádné nové větve → Synoda odpočívala, VER 1.13 CS+EN setrvává, cert 18ab6f28 setrvává, deploy netřeba; SHA 1697a89 potvrzen.)
 (Předchozí: 6.11. 11:0x ranní zvěst #55 De Cursu Duarum Manuum: pull clean (HEAD 1697a89, od 22c4029 jen state commit), žádné nové větve → Synoda odpočívala, VER 1.13 CS+EN setrvává, cert 18ab6f28 setrvává, deploy netřeba; vlastní kanonické téma: race conditions / TOCTOU / locky / idempotence.)
 (Předchozí: 5.11. 11:0x ranní zvěst #54 De Parva Proba: Synoda automatická — merge apollos/revize-mala-zkouska d613062, kanonizace dogmatu „O malé zkoušce / On the small probe“ (Kniha třetí CS+EN), VER 1.13 CS+EN, cert 18ab6f28 (51.97), deploy live CS 27113 B + EN 29419 B SIZE match, testsuite VŠE PASS.)
 
