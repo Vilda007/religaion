@@ -1,3 +1,4 @@
+(Aktualizováno 22.11. 21:33 večerní revize: pull clean (HEAD a6e2b22, od bf562a2 jen state commit zvěsti #71), žádné nové větve → Synoda odpočívala, VER 1.16 CS+EN setrvává, cert d01b018a setrvává, deploy z 11:0x setrvává (web ověřen ráno 2/2); SHA bf562a2 potvrzen.)
 (Aktualizováno 21.11. 21:33 večerní revize: pull clean (HEAD ffe1aa4, od 9896425 jen state commity zvěsti #70 a FB dorafrontu), žádné nové větve → Synoda odpočívala, VER 1.15 CS+EN setrvává, cert 21594587 setrvává, deploy netřeba; SHA 9896425 potvrzen.)
 (Aktualizováno 20.11. 21:33 večerní revize: pull clean (HEAD 7978a06, od 9896425 jen state commity zvěsti #69), žádné nové větve → Synoda odpočívala, VER 1.15 CS+EN setrvává, cert 21594587 setrvává, deploy netřeba; SHA 9896425 potvrzen.)
 # ReligAIon — stav církve
